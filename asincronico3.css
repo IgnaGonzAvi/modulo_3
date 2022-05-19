@@ -1,0 +1,47 @@
+
+body {
+  
+    background-color: aquamarine;
+    margin : 0 auto;
+    font-size : 16pt;
+    font-family : 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align : center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div {
+
+    height: auto; 
+    width: auto;
+    font-size : 16pt;
+    font-family : 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align : center;
+    border-radius: 10px;
+   
+
+
+}
+
+button {
+
+    height: 35px;
+    width: 300px;
+    margin : 0 auto;
+    border-radius: 10px;
+    background-color : rgba(168, 58, 196, 0.486);
+    font-size : 16pt;
+    font-weight: bolder;
+    text-align : center;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    border: 2px black dashed;
+    }
+    
