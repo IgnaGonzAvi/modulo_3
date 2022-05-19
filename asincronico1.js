@@ -1,32 +1,49 @@
 
 
-class Libro  {
-    constructor (nombreC, autorC, editorialC, generoC){
+class Libro {
+    constructor(nombreP, autorP, editorialP, generoP){
+        this.nombre = nombreP;
+        this.autor = autorP;
+        this.editorial = editorialP;
+        this.genero = generoP;
+    }
 
-    this.nombre = nombreC;
-    this.autor = autorC;
-    this.editorial = editorialC;
-    this.genero = generoC;
+    mostrarLibro(){
+        console.log(this.nombre + ", "+ this.autor + ", "+ this.editorial +", "+ this.genero);
+        return this.mostrarLibro;
+    }
+
 }
-}
-function mostrarLibro(){
-    this.nombre, this.autor, this.editorial, this.genero
 
-}
-
-
-var metamorfosis = new Libro("La metamorfósis", "Franz Kafka", "Alfaguara", "Fantástico");
-var harry = new Libro("Harry Potter y la orden del fénix","J.K Rowling","Salamandra","Fantástico");
-var catedral = new Libro("La catedral del mar","Ildefonso Falcones","Alfaguara","Novela histórica");
-
-let libros = [metamorfosis, harry, catedral]
-libros [0] = metamorfosis;
-libros [1] = harry;
-libros [2] = catedral;
+var libro1 = new Libro("Metamorfosis", "Kafka", "Salamandra", "Fantástico");
+var libro2 = new Libro("Harry Potter", "Rowling", "Random Penguin", "Fantástico");
+var libro3 = new Libro("Sabina", "Daniela Sol", "Marciano", "Poesía");
 
 
-console.log(libros);
+libro1.mostrarLibro();
+libro2.mostrarLibro();
+libro3.mostrarLibro();
 
+let libros = [
+    {   
+        nombre : "Metamorfosis",
+        autor : "Kafka",
+        editorial : "Salamandra",
+        genero : "Fantástico" 
+    },
+    {
+        nombre: "Harry Potter",
+        autor: "Rowling",
+        editorial: "Random Penguin",
+        genero : "Fantástico"
+    },
+    {
+        nombre : "Sabina",
+        autor : "Daniela Sol",
+        editorial : "Marciano",
+        genero : "Poesia"
+    }
+];
 
 
 
